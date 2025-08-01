@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Navigation Buttons</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    h2 {
+      margin-bottom: 30px;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+
+    button {
+      padding: 10px 25px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Select an Option</h2>
+
+  <div class="button-container">
+    <form action="movie.html">
+      <button type="submit">Movie</button>
+    </form>
+
+    <form action="event.html">
+      <button type="submit">Event</button>
+    </form>
+
+    <form action="bus.html">
+      <button type="submit">Bus</button>
+    </form>
+
+    <form action="train.html">
+      <button type="submit">Train</button>
+    </form>
+  </div>
+
+</body>
+</html>
